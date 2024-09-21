@@ -1,0 +1,135 @@
+ /*      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }*/
+
+      body {
+        background-color: hsl(30, 54%, 90%);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: hsl(30, 10%, 34%);
+        margin: 0;
+      }   
+      
+      /*Effects*/
+      span {
+        font-weight: 600;
+      }
+
+      .preparation-information::marker {
+        color: hsl(332, 51%, 32%);
+      }
+      /**/
+
+      .main {
+        background-color: white;
+        width: 700px;
+        border-radius: 30px;
+        padding: 30px 30px;
+      }
+
+      /*Image*/
+      .image-container {
+        margin-bottom: 24px;
+      }
+
+      .image {
+        width: 700px;
+        border-radius: 30px;
+      }
+      /**/
+
+      /*Title*/
+      .recipe-title {
+        font-family: Young Serif, Serif;
+        font-size: 40px;
+        margin-bottom: 30px;
+        color: hsl(24, 5%, 18%);
+      }
+      /**/
+
+      /*Recipe Description*/
+      .recipe-description {
+        font-family: Outfit, Arial;
+        margin-bottom: 30px;
+        color: hsl(30, 10%, 34%);
+      }
+      /**/
+
+      /*Everything in pink preparation box*/
+      .preparation-container {
+        font-family: Outfit, Arial;
+        background-color: hsl(330, 100%, 98%);
+        padding: 30px 30px;
+        border-radius: 30px;
+        margin-bottom: 30px;
+      }
+      .preparation-time {
+        color: hsl(332, 51%, 32%);
+        font-size: 18px;
+        font-weight: medium;
+      }
+      /**/
+
+   
+
+      /*Everything in ingredients section*/
+      .ingredients-container {
+        font-family: Outfit, Arial;
+        color: hsl(30, 10%, 34%);
+      }
+
+      .ingredients {
+        color: hsl(14, 45%, 36%);
+        font-family: Young Serif, Serif;
+        font-size: 26px;
+      }
+      /**/
+
+      /*Everything instructions section*/
+      .instructions-container {
+        font-family: Outfit, Arial;
+        color: hsl(30, 10%, 34%);
+      }
+
+      .instructions {
+        color: hsl(14, 45%, 36%);
+        font-family: Young Serif, Serif;
+        font-size: 26px;
+      }
+      /**/
+
+      /*Everything in nutrition section*/
+      .nutrition-container {
+        font-family: Outfit, Arial;
+      }
+
+      .nutrition {
+        color: hsl(14, 45%, 36%);
+        font-family: Young Serif, Serif;
+        font-size: 26px;
+        margin-bottom: 20px;
+      }
+
+      .nutrition-information {
+        color: hsl(30, 10%, 34%);
+      }
+
+      table{
+        width: 700px;
+      }
+
+      td{
+        color: hsl(14, 45%, 36%);
+        font-weight: 600;
+      }
+
+      th,td{
+        border-bottom: 1px solid;
+        text-align: left;
+      }
